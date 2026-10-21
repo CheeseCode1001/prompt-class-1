@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#617e78">
+    <meta name="description" content="Personalized care tailored to you. Explore thoughtful, clinician-guided wellness treatments with TrueBody.">
+    <title>TrueBody — Personalized care, tailored to you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=2200&q=85"
+          alt=""
+          fetchpriority="high"
+        >
+        <header class="site-header">
+          <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+          <label class="menu-button" for="menu-toggle" aria-hidden="true">
+            <span></span><span></span>
+          </label>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#treatments">Weight Loss</a>
+            <a href="#treatments">Longevity</a>
+            <a href="#treatments">Strength</a>
+            <a href="#treatments">Hair Care</a>
+          </nav>
+          <a class="wordmark" href="#home" aria-label="TrueBody home">TrueBody<sup>®</sup></a>
+          <div class="header-actions">
+            <a class="login-link" href="#treatments">Login</a>
+            <a class="get-started" href="#treatments">Get Started</a>
+          </div>
+        </header>
+
+        <div class="hero__content">
+          <div class="hero__copy">
+            <p class="eyebrow"><span class="check-icon" aria-hidden="true">✓</span> FDA &amp; FDA eligible with all plans</p>
+            <h1 id="hero-title">Personalized<br>care tailored<br>to you</h1>
+            <a class="primary-action" href="#treatments">
+              <span>Button Label</span>
+              <span class="action-arrow" aria-hidden="true">↗</span>
+              <span class="sr-only">Explore treatments</span>
+            </a>
+          </div>
+
+          <div class="hero__topics" aria-label="Care areas">
+            <a class="topic topic--active" href="#treatments"><span aria-hidden="true">◉</span> Weight Loss</a>
+            <a class="topic" href="#treatments"><span aria-hidden="true">△</span> Energy &amp; Mood</a>
+            <a class="topic" href="#treatments"><span aria-hidden="true">◌</span> Longevity</a>
+            <a class="topic" href="#treatments"><span aria-hidden="true">◇</span> Sexual Wellness</a>
+          </div>
+
+          <p class="hero__footnote">It’s more than a feel-good plan.<br>It’s a community.</p>
+          <a class="quiz-card" href="#treatments">
+            <img
+              src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=240&h=220&q=80"
+              alt=""
+              loading="lazy"
+            >
+            <span class="quiz-card__copy">
+              <span class="quiz-card__tag">GLP-1 Compound</span>
+              <strong>See if TrueBody<sup>®</sup><br>is for you</strong>
+              <span class="quiz-card__link">Take a Quiz <span aria-hidden="true">↗</span></span>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="treatments" id="treatments" aria-labelledby="treatments-title">
+        <div class="treatments__heading">
+          <h2 id="treatments-title">Treatments we Offer <sup>06</sup></h2>
+          <div class="carousel-controls" aria-label="Scroll treatment cards">
+            <button class="carousel-button" type="button" aria-label="Previous treatments">‹</button>
+            <button class="carousel-button carousel-button--next" type="button" aria-label="Next treatments">›</button>
+          </div>
+        </div>
+        <div class="treatment-list" aria-label="Available treatments">
+          <article class="treatment-card treatment-card--lavender" id="treatment-card-1">
+            <h3>Weight Loss</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&h=500&q=80" alt="Woman smiling" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+          <article class="treatment-card treatment-card--mint" id="treatment-card-2">
+            <h3>Energy &amp; Mood</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&h=500&q=80" alt="Woman enjoying a sunny day" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+          <article class="treatment-card treatment-card--rose" id="treatment-card-3">
+            <h3>Longevity</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&h=500&q=80" alt="Portrait of a man" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+          <article class="treatment-card treatment-card--aqua" id="treatment-card-4">
+            <h3>Sexual Wellness</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&h=500&q=80" alt="Woman in soft natural light" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+          <article class="treatment-card treatment-card--sand" id="treatment-card-5">
+            <h3>Hair Care</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&h=500&q=80" alt="Woman with natural hair" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+          <article class="treatment-card treatment-card--blue" id="treatment-card-6">
+            <h3>Strength</h3>
+            <p class="treatment-price">Starting at $196 per month</p>
+            <div class="treatment-portrait">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=500&h=500&q=80" alt="Woman stretching" loading="lazy">
+            </div>
+            <a class="treatment-link" href="#home"><span aria-hidden="true">↗</span> Explore Treatments</a>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
